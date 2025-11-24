@@ -11,9 +11,17 @@ body {
     background-color: #D3ACDE;
 }
 
-.navbar a{
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    font-size: 0.9em;
+    justify-content: center;
+    padding: 50px 0 10px 0; 
+}
+
+.navbar a {
     color: black;
-    font-size: 20px
 }
 .titulo {
     text-align: center;
