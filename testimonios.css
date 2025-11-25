@@ -211,3 +211,56 @@ textarea {
     margin-top: 5px;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .navbar {
+        gap: 20px; 
+        padding: 30px 10px 10px 10px; 
+        justify-content: space-around; 
+    }
+
+    .parrafo {
+        text-align: center;
+        max-width: 90%;
+    }
+
+    .testimonio-card {
+        width: 90%; 
+        max-width: 350px; 
+    }
+    
+    .formulario-contacto {
+        max-width: 90%;
+        padding: 20px 10px;
+    }
+    
+    .grupo-campo {
+        flex-direction: column; 
+        gap: 0; 
+    }
+    
+    .boton-enviar {
+        width: 100%;
+    }
+
+    .bloque {
+        flex-direction: column; 
+        align-items: center; 
+        gap: 10px; 
+    }
+    .title, .enlace {
+        width: 90%; 
+        min-width: unset; 
+        text-align: center;
+    }
+    .title {
+        justify-content: center;
+    }
+    .enlace ul {
+        text-align: center;
+    }
+    .alerta {
+        max-width: 100%;
+        border-radius: 0;
+    }
+}

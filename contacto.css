@@ -294,3 +294,80 @@ textarea {
     text-align: center;
 }
 
+@media (max-width: 768px) {
+    .navbar {
+        gap: 20px; 
+        padding: 30px 10px 10px 10px; 
+        justify-content: space-around; 
+    }
+    
+    .dos {
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    
+    .contacto-container {
+        padding-left: 0;
+        max-width: 90%; 
+        margin: 0 auto 20px auto; 
+    }
+
+    .contacto-item {
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    
+    .formulario-contacto {
+        max-width: 90%;
+    }
+    
+    .grupo-campo {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .boton-enviar {
+        width: 100%;
+    }
+
+    .redes-sociales-container {
+        margin: 20px auto;
+    }
+
+    .iconos-barra {
+        padding: 10px 10px;
+        gap: 5px;
+    }
+    
+    .icono-link {
+        width: 35px; 
+        height: 35px;
+    }
+
+    .acerca-container {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .bloque2 {
+        flex-direction: column; 
+        align-items: center; 
+        gap: 10px; 
+    }
+    .title, .enlace {
+        width: 90%; 
+        min-width: unset; 
+        text-align: center;
+    }
+    .title {
+        justify-content: center;
+    }
+    .enlace ul {
+        text-align: center;
+    }
+    .alerta {
+        max-width: 100%;
+        border-radius: 0;
+    }
+}

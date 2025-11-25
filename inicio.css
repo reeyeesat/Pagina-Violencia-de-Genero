@@ -163,3 +163,62 @@ body, html {
     padding: 0;
     margin-top: 5px;
 }
+
+@media (max-width: 768px) {
+    .letra {
+        font-size: 1.8em; 
+    }
+    
+    .navbar {
+        gap: 20px; 
+        padding: 30px 10px 10px 10px; 
+        justify-content: space-around; 
+    }
+
+    .contenido-fondo {
+        margin-left: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center; 
+    }
+
+    .contenido-fondo img {
+        max-width: 100%; 
+    }
+    
+    .foto img {
+        max-width: 100%; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .principal {
+        text-align: center;
+    }
+    
+    .boton {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bloque {
+        flex-direction: column; 
+        align-items: center; 
+        gap: 10px; 
+    }
+    .title, .enlace {
+        width: 90%; 
+        min-width: unset; 
+        text-align: center;
+    }
+    .title {
+        justify-content: center;
+    }
+    .enlace ul {
+        text-align: center;
+    }
+    .alerta {
+        max-width: 100%;
+        border-radius: 0;
+    }
+}

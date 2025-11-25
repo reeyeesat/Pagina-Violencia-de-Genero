@@ -216,3 +216,65 @@ textarea {
     margin-top: 5px;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .navbar {
+        gap: 20px; 
+        padding: 30px 10px 10px 10px; 
+        justify-content: space-around; 
+    }
+    
+    .contenedor {
+        flex-direction: column; 
+        gap: 20px; 
+        padding-top: 20px;
+        padding-bottom: 30px;
+        align-items: center; 
+    }
+
+    .contenedor img {
+        max-width: 90%;
+        height: auto;
+    }
+    .contenedor1 {
+        max-width: 90%;
+        padding: 0 10px;
+    }
+    
+    .mapa-contenedor {
+        height: 300px; 
+        padding: 10px;
+        max-width: 90%; 
+    }
+
+    .formulario-contacto {
+        max-width: 90%;
+        padding: 20px 10px;
+    }
+    
+    .grupo-campo {
+        flex-direction: column; 
+        gap: 0; 
+    }
+
+    .bloque2 {
+        flex-direction: column; 
+        align-items: center; 
+        gap: 10px; 
+    }
+    .title, .enlace {
+        width: 90%; 
+        min-width: unset; 
+        text-align: center;
+    }
+    .title {
+        justify-content: center;
+    }
+    .enlace ul {
+        text-align: center;
+    }
+    .alerta {
+        max-width: 100%;
+        border-radius: 0;
+    }
+}
