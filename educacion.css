@@ -77,6 +77,11 @@ body {
     flex-wrap: wrap;
 }
 
+.material-container a{
+    color:black;
+    font-weight: bold;
+}
+
 .card {
     background: linear-gradient(145deg, #a057bf, #80459c);
     border-radius: 20px;
